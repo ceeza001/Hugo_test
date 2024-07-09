@@ -40,7 +40,7 @@ const SplashScreen = () => {
         <div
           className="flex gap-2 mb-10"
         >
-          {dots.map((dot) => (
+          {dots.map((dot, i) => (
             <motion.div
               key={dot.id}
               initial={{ y: "0%" }}
