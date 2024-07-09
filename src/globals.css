@@ -12,7 +12,7 @@
   }
 
   body {
-    @apply max-h-[100dvh] bg-white text-[#000] font-inter;
+    @apply max-h-[100dvh] bg-dark-1 text-[#000] font-inter;
   }
 }
 
@@ -56,7 +56,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(45deg, #F0A9A3, #FD1500, #F0A9A3, #FD1500, #F0A9A3);
+    background: linear-gradient(45deg, #F0A9A3, #009CEB, #FDFDFD, #009CEB, #009CEB);
     -webkit-background-clip: text;
     color: transparent;
     animation: gradientAnimation 5s linear infinite;
@@ -118,7 +118,7 @@
 
   /* Topbar */
   .topbar {
-    @apply fixed top-0 z-[100] w-full w-full flex p-[1rem] justify-between items-center;
+    @apply fixed top-0 z-[100] w-full flex p-[1rem] justify-between items-center;
   }
 }
 @layer components {

@@ -2,29 +2,64 @@
 const Hero = () => {
   return (
     <div>
+      
       <div className="mt-[4rem] absolute z-50 flex flex-wrap-reverse md:flex-nowrap justify-between items-center gap-8 p-[1rem] md:p-[6rem]">
-        <div className="w-full space-y-8 md:space-y-10">
-          <h1 className="font-bold text-[30px] md:text-[40px] leading-[101%] text-[#FB89C0] drop-shadow-2xl">
-            Simple Health Talk: The Importance of a Balanced Diet.
+        <div className="text-white w-full space-y-8 md:space-y-10">
+          <h1 className="font-bold text-[30px] md:text-[40px] leading-[101%] text-[#009CEB] drop-shadow-2xl">
+            The Benefits of Traveling
           </h1>
           <p>
-            Maintaining a balanced diet is crucial for overall health and well-being. A balanced diet provides the necessary nutrients for our bodies to function effectively, reducing the risk of disease and improving energy and performance.
+            Exploring new places and cultures can significantly enhance your overall well-being and happiness. Here’s how traveling can contribute to a healthier and more fulfilling lifestyle:
           </p>
 
-          <p>
-            Key Components of a Balanced Diet:
-
-Fruits and Vegetables: Essential for vitamins, minerals, and fiber.
-Proteins: Important for growth and repair; include lean meats, fish, beans, and nuts.
-Carbohydrates: Provide energy; choose whole grains like brown rice and whole wheat bread.
-Dairy: Supports bone health with calcium and vitamin D; include milk, yogurt, and cheese.
-          </p>
-
-          <p>
-            By incorporating a variety of these food groups in the right proportions, we can support our body's needs and promote long-term health.
-          </p>
+          <div className="z-[900] flex items-center gap-2">
+            
+            <div>
+              <img 
+                src="/assets/icons/1.svg"
+                alt="telegram"
+                width={25}
+                height={25}
+                className="invert-white"
+              />
+            </div>
+            
+            <div className="relative">
+              <img 
+                src="/assets/icons/2.svg"
+                alt="X-twitter"
+                width={25}
+                height={25}
+                className="invert-white"
+              />
+            </div>
+            <div className="relative">
+              <img 
+                src="/assets/icons/3.svg"
+                alt="X-twitter"
+                width={25}
+                height={25}
+                className="invert-white"
+              />
+            </div>
+            <div className="relative">
+              <img 
+                src="/assets/icons/4.svg"
+                alt="X-twitter"
+                width={25}
+                height={25}
+                className="invert-white"
+              />
+            </div>
+          </div>
         </div>
-        
+        <div className="rounded-lg overflow-hidden border-2 w-full flex items-center justify-center h-full">
+          <img 
+            src="/assets/images/hero.jpg" 
+            alt="Button_On_Ton" 
+            className="w-full md:w-[20rem] aspect-square"
+          />
+        </div>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Outlet } from "react-router-dom";
 
 import SplashScreen from "@/components/SplashScreen";
+import { Topbar } from "@/components"
 
 const RootLayout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +23,7 @@ const RootLayout = () => {
         <SplashScreen />
       ) : (
         <div className="w-full">
+          <Topbar />
           <Outlet />
         </div>
       )}

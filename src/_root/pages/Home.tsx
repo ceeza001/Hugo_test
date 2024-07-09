@@ -1,4 +1,4 @@
-import { Hero } from "@/components/";
+import { Hero, Health } from "@/components/";
 
 const Home = () => {
 
@@ -6,6 +6,10 @@ const Home = () => {
     <div className="">
       <div className="relative h-screen">
         <Hero />
+      </div>
+
+      <div className="my-10 md:my-0">
+        <Health />
       </div>
 
     </div>
