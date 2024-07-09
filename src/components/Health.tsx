@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 
 const Health = () => {
   return (
@@ -10,7 +9,6 @@ const Health = () => {
       <div className="w-full flex md:flex-nowrap flex-wrap-reverse  gap-4 md:gap-10 justify-center items-center pointer-events-none">
         <div className="w-full flex flex-col gap-2">
           <div
-            borderRadius="15px"
             className="bg-dark-2 flex items-center justify-center w-full h-full border-primary-500/50">
             <img 
               src="/assets/images/1.jpg"
@@ -19,7 +17,6 @@ const Health = () => {
           </div>
           <div className="flex gap-2 w-full">
             <div
-              borderRadius="15px"
               className="bg-dark-2 flex items-center justify-center w-full h-full border-primary-500/50">
               <img 
                 src="/assets/images/2.jpg"
@@ -27,7 +24,6 @@ const Health = () => {
               />
             </div>
             <div
-              borderRadius="15px"
               className="bg-dark-2 flex items-center justify-center w-full h-full border-primary-500/50">
               <img 
                 src="/assets/images/3.jpg"
